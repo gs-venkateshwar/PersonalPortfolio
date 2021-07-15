@@ -2,11 +2,13 @@
 <html>
     <head>
         <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <style>
             th{
                 height: 50px;
                 padding: 10px;
                 border: 1px solid black;
+                text-align: center;
             }
             a{
                 text-decoration: none;
@@ -14,7 +16,7 @@
             }
             body {
                 background-image: url('BG.png');
-                background-size: 100%;
+                background-size: 100% 100%;
             }
             img {
                 border-radius: 50%;
@@ -22,6 +24,27 @@
                 margin-left: auto;
                 margin-right: auto;
                 height:250px;
+            }
+            p{
+                color: aliceblue;
+                text-align: justify;
+                font-size: large;
+            }
+            b{
+                color:bisque;
+            }
+            ul{
+                color: aliceblue;
+            }
+            .pic {
+                position:relative;
+                top:70%;
+                height:7em;
+                width:7em;
+            }
+            .column{
+                position:relative;
+                display:inline-block;
             }
         </style>
     </head>
@@ -35,5 +58,37 @@
             </table>
         </nav>
         <img src="IMG.jpg">
+        <p style="text-align:center; color:darkorange; font-size:xx-large;"><em>G.S. Venkateshwar</em></p>
+        <p><b>Career Objective:</b>To work in an esteemed organisation where I can exhibit my technical
+            expertise in DBMS, Java, Web Technologies and problem solving skills, 
+            analytical skills to help the organization scale new heights along with my 
+            career progression.
+        </p>
+            <p><b>Strengths:</b>
+                <ul>
+                    <li>Interpersonal Skills</li>
+                    <li>Problem Solving</li>
+                    <li>Team Player</li>
+                </ul>
+            </p>
+            <b>Hobbies:</b><br><br>
+                    <div class="column">
+                        <img class="pic" src="badminton-racket-and-feather.png">
+                    </div>
+                    <div class="column">
+                        <img src="quad-bike.png" class="pic">
+                    </div>
+                    <div class="column">
+                        <img src="listen.png" class="pic">
+                    </div>
+                    <div class="column">
+                        <img src="animation.png" class="pic">
+                    </div>
+                    <div class="column">
+                        <img src="volleyball-player-motion.png" class="pic">
+                    </div>
+            <p><b>More about me:</b> I am a happy graduate who is pursuing Post graduation in Hyderabad. In near future, I
+             want to 
+            get into IT sector in a decent organisation</p>
     </body>
 </html>
