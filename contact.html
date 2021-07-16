@@ -3,6 +3,7 @@
     <head>
         <title>Personal Portfolio</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             th{
                 height: 50px;
@@ -16,6 +17,7 @@
             }
             body {
                 background-image: url('BG.png');
+                background-attachment: fixed;
                 background-size: 100%;
             }
         </style>
@@ -29,5 +31,11 @@
                 <th><a href="contact.html">Contact me</a></th>
             </table>
         </nav>
+        <form>
+            <input name="name" type="text" placeholder="Name">
+            <input name="email" type="email" placeholder="E-mail">
+            <input name="feedback" type="text" placeholder="Feedback/Suggestions">
+        </form>
+        <button name="submit" type="submit">Submit</button>
     </body>
 </html>
