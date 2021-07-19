@@ -2,8 +2,9 @@
 <html>
     <head>
         <title>Personal Portfolio</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <style>
             h1{
                 text-align: center;
@@ -18,10 +19,16 @@
                 text-decoration: none;
                 color: yellow;
             }
+            a:hover {
+                background-color: orange;
+            }
             body {
                 background-image: url('BG.png');
                 background-attachment: fixed;
-                background-size: 100%;
+                background-size: cover;
+            }
+            .row {
+              border: solid;
             }
         </style>
     </head>
@@ -34,5 +41,113 @@
                 <th><a href="contact.html">Contact me</a></th>
             </table>
         </nav>
+        <br>
+        <h1>Projects</h1>
+        <div class="card-deck">
+          <div class="card card1">
+            <div class="card-body bg-info text-center">
+              <a href="#p1"><p class="card-text">Python Projects</p></a>
+            </div>
+          </div>
+          <div class="card card1">
+            <div class="card-body bg-info text-center">
+              <a href="#p2"><p class="card-text">Java Projects</p></a>
+            </div>
+          </div>
+          <div class="card card1">
+            <div class="card-body bg-info text-center">
+              <a href="#p3"><p class="card-text">React-JS/Angular Projects</p></a>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="container">
+          <h3 id="p1">Python Projects</h3>
+          <div class="row">
+            <div class="col content">
+              <!--<img src="images/python project.jpg" style="float: right;width:170px;height:170px;margin-left:15px;">--> 
+              <p><em class="side-head">Project Name:</em> Smart Security System for Capturing and Tracking Moving Objects</p>
+              <p><em class="side-head">Role:</em> Team Lead</p>
+              <p><em class="side-head">Technologies used:</em> Python</p>
+              <p><em class="side-head">Team size:</em> 3</p>
+              <p><em class="side-head">Description:</em>Developed an automated system to track, capture and send alert notification
+                 to user when an object enters restricted areas. Used Numpy, Pandas libraries in Python to detect, and used Bokeh, 
+                 SMTPLIB for alerting user.</p>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col content">
+              <p><em class="side-head">Project Name:</em> Suicide rate analysis in India in last decade</p>
+              <p><em class="side-head">Role:</em> Team Member</p>
+              <p><em class="side-head">Technologies used:</em> Python</p>
+              <p><em class="side-head">Team size:</em> 3</p>
+              <p><em class="side-head">Description:</em>Developed a system which can depict the data taken in a decade in the form
+                 of graphs which is easier to visualize. Designed in ipynb format by using Numpy, Pandas and Matplotlib libraries 
+                 that are easy to run anywhere.</p>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col content">
+              <p><em class="side-head">Project Name:</em> POP (Game)</p>
+              <p><em class="side-head">Role:</em> Team Member</p>
+              <p><em class="side-head">Technologies used:</em> Python</p>
+              <p><em class="side-head">Team size:</em> 2</p>
+              <p><em class="side-head">Description:</em>Designed and developed the game POP for two players. Implemented GUI model using tkinter.
+                 Ran multiple tests to make sure no bugs are present.</p>
+            </div>
+          </div>
+          <br>
+          <h3 id="p2"> Java Projects</h3>
+          <div class="row">
+            <div class="col content">
+              <p><em class="side-head">Project Name:</em> Subtle Cipher Hall</p>
+              <p><em class="side-head">Role:</em> Team Lead</p>
+              <p><em class="side-head">Technologies used:</em> Java, HTML</p>
+              <p><em class="side-head">Team size:</em> 5</p>
+              <p><em class="side-head">Description:</em>Designed a webpage that can help students understand and faculty to teach better 
+                about Encryption and Decryption. HTML was used for the front end, Java at the back end to take inputs and provide crypted keys/text.</p>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col content">
+              <p><em class="side-head">Project Name:</em> Banking application</p>
+              <p><em class="side-head">Technologies used:</em> Java</p>
+              <p><em class="side-head">Role:</em> Individual developer</p>
+              <p><em class="side-head">Description:</em>Developed a banking application that consisted of creating multiple accounts for 
+                customers and performing debit and credit functions and deduction of transaction fees based on type of transaction.
+                 Collections API in Java was used to complete the project. Testing was done using JUnit successfully.</p>
+            </div>
+          </div>
+          <br>
+          <h3 id="p3">React/Angular(Node JS) Projects</h3>
+          <div class="row">
+            <div class="col content">
+              <p><em class="side-head">Project Name:</em> Koyil App</p>
+              <p><em class="side-head">Role:</em> Team Member</p>
+              <p><em class="side-head">Technologies used:</em> Ionic, Angular, Node js</p>
+              <p><em class="side-head">Team size:</em> 3</p>
+              <p><em class="side-head">Description:</em>Redesigned koyil application as a part of internship program and worked
+                 on new version updates. Made a few sections of the application more user friendly by giving better options. 
+                 Used Ionic framework and Angular to give cross platform functionality.</p>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col content">
+              <p><em class="side-head">Project Name:</em> i-lms(Intelligent Learning Management System)</p>
+              <p><em class="side-head">Role:</em> Team Member</p>
+              <p><em class="side-head">Technologies used:</em> React-Js,JSX,CSS-3</p>
+              <p><em class="side-head">Team size:</em> 6</p>
+              <p><em class="side-head">Description:</em>Designed and developed a Realtime web application for LMS.
+                 Worked on the front end part to provide an appealing UI & used API calls to get the data from backend and 
+                 display based on the type of user. Deployed the application successfully on Google Cloud.</p>
+            </div>
+          </div>
+          
+        </div>
+          
     </body>
 </html>
